@@ -1,0 +1,40 @@
+package com.example.recipeapp.model
+
+import java.io.Serializable
+
+data class Result(
+    val aggregateLikes: Int,
+    val analyzedInstructions: List<AnalyzedInstructionX>,
+    val cheap: Boolean,
+    val cookingMinutes: Int,
+    val creditsText: String,
+    val cuisines: List<String>,
+    val dairyFree: Boolean,
+    val diets: List<String>,
+    val dishTypes: List<String>,
+    val gaps: String,
+    val glutenFree: Boolean,
+    val healthScore: Double,
+    val id: Int,
+    val image: String,
+    val imageType: String,
+    val license: String,
+    val lowFodmap: Boolean,
+    val occasions: List<Any>,
+    val preparationMinutes: Int,
+    val pricePerServing: Double,
+    val readyInMinutes: Int,
+    val servings: Int,
+    val sourceName: String,
+    val sourceUrl: String,
+    val spoonacularScore: Double,
+    val spoonacularSourceUrl: String,
+    val summary: String,
+    val sustainable: Boolean,
+    val title: String,
+    val vegan: Boolean,
+    val vegetarian: Boolean,
+    val veryHealthy: Boolean,
+    val veryPopular: Boolean,
+    val weightWatcherSmartPoints: Int
+): Serializable

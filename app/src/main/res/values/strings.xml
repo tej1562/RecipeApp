@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="new_recipes">New Recipes</string>
+    <string name="saved_recipes">Saved Recipes</string>
+    <string name="search_recipes">Search Recipes</string>
+    <string name="instructions">Instructions</string>
+    <string name="search_info_text">Enter recipe name in search field to start browsing your favourite recipes</string>
+    <string name="theme_text">Light Mode</string>
+</resources>

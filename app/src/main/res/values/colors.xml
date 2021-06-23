@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000aa4</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="titleTextColor">@color/black</color>
+    <color name="searchFieldBackgroundColor">#ebe7e7</color>
+    <color name="colorErrorBtn">#2E2C43</color>
+    <color name="colorGrey">#696969</color>
+    <color name="colorErrorText">@color/black</color>
+</resources>

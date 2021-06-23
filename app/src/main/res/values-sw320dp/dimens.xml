@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">@dimen/design_bottom_navigation_text_size</dimen>
+    <dimen name="text_title_size">13sp</dimen>
+    <dimen name="text_summary_size">11sp</dimen>
+    <dimen name="text_title_detail_size">15sp</dimen>
+    <dimen name="text_recipe_description">11sp</dimen>
+    <dimen name="text_recipe_instruction">10sp</dimen>
+    <dimen name="text_recipe_instruction_number">10sp</dimen>
+</resources>

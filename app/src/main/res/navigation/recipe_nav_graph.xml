@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/recipe_nav_graph"
+    app:startDestination="@id/newRecipesFragment">
+
+    <fragment
+        android:id="@+id/newRecipesFragment"
+        android:name="com.example.recipeapp.ui.fragments.NewRecipesFragment"
+        android:label="NewRecipesFragment" >
+        <action
+            android:id="@+id/action_newRecipesFragment_to_recipeDetailsFragment"
+            app:destination="@id/recipeDetailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/searchRecipesFragment"
+        android:name="com.example.recipeapp.ui.fragments.SearchRecipesFragment"
+        android:label="SearchRecipesFragment" >
+        <action
+            android:id="@+id/action_searchRecipesFragment_to_recipeDetailsFragment"
+            app:destination="@id/recipeDetailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/recipeDetailsFragment"
+        android:name="com.example.recipeapp.ui.fragments.RecipeDetailsFragment"
+        android:label="RecipeDetailsFragment" >
+        <argument
+            android:name="recipe"
+            app:argType="com.example.recipeapp.model.Recipe"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="result"
+            app:argType="com.example.recipeapp.model.Result"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>
